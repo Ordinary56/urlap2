@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="Stilus.css">
+</head>
+<body>
+
+        <form>
+            
+                <legend>Szállítási cím módosítása</legend>
+                <hr>
+            <table>
+                <tr>
+                    <td><label for="name" class="elso">Név*</label><br>
+                        <input type="text" class="name"></td>
+                    <td><label for="phone" class="elso">Telefonszám*</label><br>
+                    <select id="phone" name="number">
+                            <option>+36</option>
+                            <option>+50</option>
+                            <option>+70</option>
+                            <option>+20</option>
+                            </select>
+                    <input type="tel" id="t2">
+                    </td>    
+                </tr>
+                <tr>
+                    <td><label for="zipcode">Irányítószám*</label><br>
+                    <input type="number" id="zipcode"></td>
+                    <td><label for="city">Város</label><br>
+                    <select id="city">
+                            <option>Debrecen</option>
+                            <option>Budapest</option>
+                            <option>Kocsord</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="country">Ország*</label><br>
+                        <select id="country">
+                                <option>Magyarország</option>
+                                <option>Németország</option>
+                                <option>Oroszország</option>
+                        </select></td>
+                        <td><label for="email">Email*</label><br>
+                            <input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td class="save"> <input type="submit" id="save" value="Mentés" class="save"></td>
+                </tr>
+
+            </table>
+            
+       
+        </form>
+</body>
+</html>
